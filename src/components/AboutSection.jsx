@@ -12,7 +12,7 @@ export default function AboutSection() {
             <div className="about-badge-card">
               <div className="crest-halo"></div>
               <img
-                src="/images/logo_badge.jpg"
+                src="./images/logo_badge.jpg"
                 alt="Sarmacı Faruk Gaziantep Mühür"
                 className="about-crest-img"
               />

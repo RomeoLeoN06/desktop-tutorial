@@ -21,7 +21,7 @@ export default function Navbar({ onOpenGallery, onReplayIntro }) {
           title="3D Logo Açılışını Yeniden Başlat"
         >
           <img
-            src="/images/logo_badge.jpg"
+            src="./images/logo_badge.jpg"
             alt="Sarmacı Faruk Gaziantep"
             className="brand-logo-img"
           />

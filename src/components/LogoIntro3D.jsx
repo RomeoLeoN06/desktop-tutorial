@@ -129,7 +129,7 @@ export default function LogoIntro3D({ onComplete }) {
 
     // Texture Loader for Logo
     const textureLoader = new THREE.TextureLoader();
-    const logoTex = textureLoader.load('/images/logo_badge.jpg');
+    const logoTex = textureLoader.load('./images/logo_badge.jpg');
     logoTex.colorSpace = THREE.SRGBColorSpace;
 
     // Materials

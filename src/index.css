@@ -1445,7 +1445,7 @@ button, a {
 .kitchen-bg-layer {
   position: absolute;
   inset: 0;
-  background-image: url('/images/real/real_counter_showcase.jpg');
+  background-image: url('./images/real/real_counter_showcase.jpg');
   background-size: cover;
   background-position: center;
   filter: blur(14px) brightness(0.22);

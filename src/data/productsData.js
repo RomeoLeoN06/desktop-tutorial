@@ -7,7 +7,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Özel Sarma',
     desc: 'Tavuk but eti, sumaklı soğan piyazı ve taze yeşilliklerle tırnak lavaşta.',
     ingredients: 'Tavuk but eti, sumaklı soğan piyazı, tırnak lavaş.',
-    image: '/images/tavuk_durum.jpg'
+    image: './images/tavuk_durum.jpg'
   },
   {
     id: 'nohut-sarma',
@@ -16,7 +16,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Özel Sarma',
     desc: 'Sıcak Antep nohudu, sumak, kimyon ve taze soğan piyazıyla tırnak lavaşta.',
     ingredients: 'Antep nohudu, kimyon, sumak, taze soğan piyazı, tırnak lavaş.',
-    image: '/images/nohut_durum.jpg'
+    image: './images/nohut_durum.jpg'
   },
   {
     id: 'ciger-kavurma-sarma',
@@ -25,7 +25,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Özel Sarma',
     desc: 'Kavrulmuş taze kuzu ciğeri, sumaklı maydanoz piyazı ve baharatlarla tırnak lavaşta.',
     ingredients: 'Taze kuzu ciğeri, sumaklı maydanoz piyazı, baharatlar, tırnak lavaş.',
-    image: '/images/ciger_durum.jpg'
+    image: './images/ciger_durum.jpg'
   },
   {
     id: 'antep-tava-sarma',
@@ -34,7 +34,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Özel Sarma',
     desc: 'Fırında pişmiş lezzetli tava eti, biber, domates ve baharatlarla tırnak lavaşta.',
     ingredients: 'Fırın tava eti, kapya biber, domates, baharatlar, tırnak lavaş.',
-    image: '/images/antep_tava_durum.jpg'
+    image: './images/antep_tava_durum.jpg'
   },
   {
     id: 'tavuk-sis',
@@ -43,7 +43,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Özel Şiş',
     desc: 'Közde pişirilmiş tavuk şiş, sumaklı piyaz ve köz biber ile tırnak lavaşta.',
     ingredients: 'Közde tavuk şiş, sumaklı soğan piyazı, köz biber, tırnak lavaş.',
-    image: '/images/tavuk_sis.jpg'
+    image: './images/tavuk_sis.jpg'
   },
 
   // 2. Dürüm Çeşitleri
@@ -54,7 +54,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Dürüm Çeşitleri',
     desc: 'Biber ve domatesle sotelenmiş tavuk eti, taze yeşilliklerle sıcak lavaşta.',
     ingredients: 'Sotelenmiş tavuk eti, biber, domates, taze lavaş.',
-    image: '/images/tavuk_sote_durum.jpg'
+    image: './images/tavuk_sote_durum.jpg'
   },
   {
     id: 'cig-kofte',
@@ -63,7 +63,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Dürüm Çeşitleri',
     desc: 'Antep usulü çiğ köfte, marul, taze yeşillikler ve nar ekşisiyle lavaşta.',
     ingredients: 'Antep usulü çiğ köfte, marul, nar ekşisi, lavaş.',
-    image: '/images/cig_kofte_durum.jpg'
+    image: './images/cig_kofte_durum.jpg'
   },
   {
     id: 'karisik-kizartma',
@@ -72,7 +72,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Dürüm Çeşitleri',
     desc: 'Kızarmış patlıcan, kabak ve biber, domates sosu ile sıcak lavaşta.',
     ingredients: 'Kızarmış patlıcan, kabak, yeşil biber, domates sosu, lavaş.',
-    image: '/images/karisik_kizartma.jpg'
+    image: './images/karisik_kizartma.jpg'
   },
 
   // 3. Yan Lezzetler
@@ -83,7 +83,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Yan Lezzet',
     desc: 'Çıtır sıcak patates kızartması porsiyonu.',
     ingredients: 'Çıtır patates kızartması.',
-    image: '/images/patates_kizartmasi.jpg'
+    image: './images/patates_kizartmasi.jpg'
   },
 
   // 4. İçecekler (Klasik Kapalı Ambalajlı)
@@ -94,7 +94,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Soğuk İçecek',
     desc: 'Bol köpüklü, soğuk ve ferahlatıcı Antep yayık ayranı.',
     ingredients: 'Soğuk yayık ayranı.',
-    image: '/images/products/ayran_buyuk.jpg'
+    image: './images/products/ayran_buyuk.jpg'
   },
   {
     id: 'kucuk-ayran',
@@ -103,7 +103,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Soğuk İçecek',
     desc: 'Soğuk ve ferahlatıcı klasik kapalı ayran.',
     ingredients: 'Kapalı bardak ayran.',
-    image: '/images/products/ayran_kucuk.jpg'
+    image: './images/products/ayran_kucuk.jpg'
   },
   {
     id: 'kola',
@@ -112,7 +112,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Soğuk İçecek',
     desc: 'Buz gibi soğuk kutu kola.',
     ingredients: 'Kutu kola.',
-    image: '/images/products/kola.jpg'
+    image: './images/products/kola.jpg'
   },
   {
     id: 'su',
@@ -121,7 +121,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Soğuk İçecek',
     desc: 'Soğuk doğal kaynak suyu.',
     ingredients: 'Doğal kaynak suyu.',
-    image: '/images/products/su.jpg'
+    image: './images/products/su.jpg'
   },
   {
     id: 'sade-soda',
@@ -130,7 +130,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Soğuk İçecek',
     desc: 'Soğuk ferahlatıcı sade maden suyu.',
     ingredients: 'Cam şişe sade maden suyu.',
-    image: '/images/products/sade_soda.jpg'
+    image: './images/products/sade_soda.jpg'
   },
   {
     id: 'meyveli-soda',
@@ -139,7 +139,7 @@ export const PRODUCTS_LIST = [
     categoryName: 'Soğuk İçecek',
     desc: 'Soğuk ferahlatıcı meyveli maden suyu.',
     ingredients: 'Cam şişe meyveli maden suyu.',
-    image: '/images/products/meyveli_soda.jpg'
+    image: './images/products/meyveli_soda.jpg'
   }
 ];
 

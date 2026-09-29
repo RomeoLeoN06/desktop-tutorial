@@ -14,7 +14,7 @@ export default function Footer({ onOpenMenuModal }) {
         {/* Top Footer Banner */}
         <div className="footer-top-cta">
           <div className="d-flex align-center gap-4 flex-wrap">
-            <img src="/images/logo_badge.jpg" alt="Logo" className="footer-logo-badge" />
+            <img src="./images/logo_badge.jpg" alt="Logo" className="footer-logo-badge" />
             <div>
               <h3 className="footer-cta-title">Acıktınız mı? Faruk Usta'nın Ocağı Yanıyor!</h3>
               <p className="footer-cta-desc">

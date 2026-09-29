@@ -60,7 +60,7 @@ export default function ThreeDMenuModal({ isOpen, onClose, onSelectDishForDetail
         {/* Top Header Bar */}
         <div className="menu-modal-top-bar">
           <div className="d-flex align-center gap-3">
-            <img src="/images/logo_badge.jpg" alt="Logo" className="modal-top-logo" />
+            <img src="./images/logo_badge.jpg" alt="Logo" className="modal-top-logo" />
             <div>
               <div className="badge-pill mb-0 py-1">
                 <Sparkles size={14} className="text-gold" />

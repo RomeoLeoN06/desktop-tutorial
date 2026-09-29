@@ -14,7 +14,7 @@ export default function InstagramSection() {
           <div className="d-flex align-center gap-4 flex-wrap">
             <div className="insta-avatar-wrap">
               <img
-                src="/images/logo_badge.jpg"
+                src="./images/logo_badge.jpg"
                 alt="Sarmacı Faruk Instagram"
                 className="insta-avatar-img"
               />
@@ -101,7 +101,7 @@ export default function InstagramSection() {
             </div>
             <div className="insta-modal-details">
               <div className="insta-modal-author">
-                <img src="/images/logo_badge.jpg" alt="Logo" className="modal-avatar" />
+                <img src="./images/logo_badge.jpg" alt="Logo" className="modal-avatar" />
                 <div>
                   <div className="font-bold">{RESTAURANT_INFO.instagramHandle}</div>
                   <div className="text-xs text-muted">Gaziantep, Türkiye</div>
