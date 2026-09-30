@@ -27,13 +27,13 @@ const ICONS = {
 };
 
 export default function MenuSection({ onOpenDishModal, onQuickAddToCart }) {
-  const [activeCategory, setActiveCategory] = useState('all');
+  const [activeCategory, setActiveCategory] = useState('yiyecekler');
   const [searchQuery, setSearchQuery] = useState('');
   const [hoveredCardId, setHoveredCardId] = useState(null);
 
-  // Filter items
+  // Filter items (2 categories: Yiyecekler & İçecekler, or search across all)
   const filteredItems = MENU_ITEMS.filter((item) => {
-    const matchesCategory = activeCategory === 'all' || item.category === activeCategory;
+    const matchesCategory = searchQuery.trim().length > 0 || item.category === activeCategory;
     const matchesSearch = item.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
                           item.description.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
@@ -42,21 +42,6 @@ export default function MenuSection({ onOpenDishModal, onQuickAddToCart }) {
   return (
     <section id="menu" className="menu-section">
       <div className="container">
-        {/* Section Header */}
-        <div className="section-header text-center">
-          <div className="badge-pill">
-            <Flame size={16} className="text-crimson" />
-            <span>Gaziantep Sokaklarının Hakiki Dürüm Menüsü</span>
-          </div>
-          <h2 className="section-title">
-            Faruk Usta’nın <span>Özel Dürüm & Tava Lezzetleri</span>
-          </h2>
-          <p className="section-desc">
-            Antep'in tescilli lezzet mirası; taze tırnaklı lavaşlar, kemik suyunda pişen nohutlar, 
-            odun közünde marine tavuk ve sacda cızbız kavurmalarla buluşuyor.
-          </p>
-        </div>
-
         {/* Controls: Category Filter Tabs & Search Bar */}
         <div className="menu-filters-bar">
           <div className="category-scroll-wrapper">
@@ -193,8 +178,8 @@ export default function MenuSection({ onOpenDishModal, onQuickAddToCart }) {
         {filteredItems.length === 0 && (
           <div className="empty-search-state">
             <p>Aradığınız kriterlere uygun lezzet bulunamadı.</p>
-            <button className="btn btn-outline" onClick={() => { setActiveCategory('all'); setSearchQuery(''); }}>
-              Tüm Menüyü Göster
+            <button className="btn btn-outline" onClick={() => { setActiveCategory('yiyecekler'); setSearchQuery(''); }}>
+              Menüyü Göster
             </button>
           </div>
         )}

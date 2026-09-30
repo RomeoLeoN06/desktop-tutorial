@@ -16,8 +16,8 @@ import { MENU_ITEMS, CATEGORIES, RESTAURANT_INFO } from '../data/menuData';
 export default function ThreeDMenuModal({ isOpen, onClose, onSelectDishForDetail }) {
   if (!isOpen) return null;
 
-  const [activeCategory, setActiveCategory] = useState('all');
-  const [selectedSpotlightId, setSelectedSpotlightId] = useState(MENU_ITEMS[2].id); // Default Nohut Sarma
+  const [activeCategory, setActiveCategory] = useState('yiyecekler');
+  const [selectedSpotlightId, setSelectedSpotlightId] = useState(MENU_ITEMS[0]?.id || 'antep-tava-durum');
   const [tiltCards, setTiltCards] = useState({});
 
   const filteredItems = MENU_ITEMS.filter((item) => {

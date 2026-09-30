@@ -60,13 +60,14 @@ export default function Footer({ onOpenMenuModal }) {
           <div className="footer-col">
             <h4 className="footer-col-title">Lezzetlerimiz (3D Menü)</h4>
             <ul className="footer-links-list">
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Meşhur Antep Nohut Sarma</button></li>
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Özel Soslu Tavuk Sarma</button></li>
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Közde Odun Ateşi Tavuk Şiş</button></li>
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Sacda Ciğer Kavurma Sarma</button></li>
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Antep Usulü Tava Sarma</button></li>
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Cevizli Çiğ Köfte Dürüm</button></li>
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Karışık Kızartma & Patates</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Antep Tava Dürüm</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Tavuk Sote Dürüm</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Közde Tavuk Şiş</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Sarma Tavuk Dürüm</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Meşhur Nohut Dürüm</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Antep Usulü Ciğer Kavurma</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Antep Usulü Çiğ Köfte Dürüm</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Yoğurtlu Karışık Kızartma</button></li>
             </ul>
           </div>
 

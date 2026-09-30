@@ -26,7 +26,7 @@ export default function Hero({ onOpenProductsModal }) {
         >
           <UtensilsCrossed size={16} className="text-gold" />
           <span>Ürünlerimiz</span>
-          <span className="products-count-badge">15 Çeşit</span>
+          <span className="products-count-badge">14 Çeşit</span>
           <Sparkles size={14} className="text-gold" />
         </button>
       </div>

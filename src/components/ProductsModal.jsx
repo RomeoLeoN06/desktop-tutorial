@@ -3,7 +3,7 @@ import { X, Search, Sparkles, UtensilsCrossed } from 'lucide-react';
 import { PRODUCTS_LIST, PRODUCT_CATEGORIES } from '../data/productsData';
 
 export default function ProductsModal({ isOpen, onClose }) {
-  const [activeCategory, setActiveCategory] = useState('all');
+  const [activeCategory, setActiveCategory] = useState('yiyecekler');
   const [searchQuery, setSearchQuery] = useState('');
 
   // Close on Escape key press
@@ -24,7 +24,7 @@ export default function ProductsModal({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   const filteredProducts = PRODUCTS_LIST.filter((product) => {
-    const matchesCat = activeCategory === 'all' || product.category === activeCategory;
+    const matchesCat = searchQuery.trim().length > 0 || product.category === activeCategory;
     const matchesSearch =
       product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       product.desc.toLowerCase().includes(searchQuery.toLowerCase());
