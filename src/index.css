@@ -4053,17 +4053,23 @@ button, a {
   align-items: center;
   gap: 16px;
   padding-right: 16px;
-  font-family: var(--font-heading);
-  font-size: 0.82rem;
-  font-weight: 800;
-  color: var(--accent-gold);
-  letter-spacing: 0.5px;
+  font-family: var(--font-sans) !important;
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: #ffffff !important; /* Beyaz renk */
+  letter-spacing: 0.3px;
+  text-transform: none !important;
+}
+
+.marquee-content span {
+  color: #ffffff !important; /* Net parlak beyaz */
+  text-transform: none !important;
 }
 
 .dot-sep {
-  color: #e63946;
-  font-size: 0.7rem;
-  opacity: 0.8;
+  color: #f59e0b !important;
+  font-size: 0.75rem;
+  opacity: 0.9;
 }
 
 @keyframes marquee-infinite {
@@ -4085,7 +4091,7 @@ button, a {
   justify-content: center;
   gap: clamp(16px, 4vw, 48px);
   font-size: clamp(0.78rem, 1.4vw, 0.88rem);
-  color: var(--text-secondary);
+  color: #ffffff;
   width: 100%;
 }
 
@@ -4103,18 +4109,21 @@ button, a {
 }
 
 .strip-address-link:hover .strip-address-text {
-  color: var(--accent-gold);
+  color: var(--accent-gold) !important;
   text-decoration: underline;
 }
 
 .strip-address-text {
+  font-family: var(--font-sans) !important;
   font-weight: 600;
-  color: var(--text-main);
+  color: #ffffff !important; /* Beyaz renk */
+  text-transform: none !important;
+  letter-spacing: 0.2px;
   transition: color 0.2s ease;
 }
 
 .strip-phone-link {
-  color: var(--accent-gold);
+  color: #ffffff !important;
   font-weight: 700;
   text-decoration: none;
   display: inline-flex;
@@ -4123,8 +4132,15 @@ button, a {
   transition: all 0.2s ease;
 }
 
-.strip-phone-link:hover {
-  color: #ffffff;
+.strip-phone-text {
+  font-family: var(--font-sans) !important;
+  font-weight: 700;
+  color: #ffffff !important; /* Beyaz renk */
+  letter-spacing: 0.3px;
+}
+
+.strip-phone-link:hover .strip-phone-text {
+  color: var(--accent-gold) !important;
   text-decoration: underline;
 }
 
@@ -4639,35 +4655,56 @@ button, a {
   }
 
   /* Footer on mobile */
+  .fixed-docked-footer {
+    padding-bottom: max(10px, env(safe-area-inset-bottom, 10px)) !important;
+  }
   .fixed-marquee-bar {
-    height: 28px;
+    height: 30px !important;
   }
   .marquee-content {
-    font-size: 0.74rem;
-    gap: 10px;
-    padding-right: 10px;
+    font-family: var(--font-sans) !important;
+    font-size: 0.8rem !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    gap: 12px !important;
+    padding-right: 12px !important;
+    text-transform: none !important;
+  }
+  .marquee-content span {
+    color: #ffffff !important;
+    text-transform: none !important;
   }
   .fixed-info-strip {
-    height: auto;
-    min-height: 36px;
-    padding: 4px 8px;
+    height: auto !important;
+    min-height: 42px !important;
+    padding: 6px 12px max(10px, env(safe-area-inset-bottom, 10px)) 12px !important;
   }
   .fixed-info-container {
-    justify-content: center;
-    gap: 6px 14px;
-    flex-wrap: wrap;
-    text-align: center;
+    justify-content: center !important;
+    gap: 6px 14px !important;
+    flex-wrap: wrap !important;
+    text-align: center !important;
   }
   .strip-address-text {
     max-width: none !important;
     overflow: visible !important;
     text-overflow: unset !important;
     white-space: normal !important;
-    font-size: 0.74rem;
+    font-size: 0.78rem !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+    font-family: var(--font-sans) !important;
+    line-height: 1.35 !important;
   }
   .fixed-contact-item,
   .strip-phone-link {
-    font-size: 0.76rem;
+    font-size: 0.82rem !important;
+    color: #ffffff !important;
+    font-family: var(--font-sans) !important;
+  }
+  .strip-phone-text {
+    color: #ffffff !important;
+    font-weight: 700 !important;
   }
   .fixed-buttons-item {
     display: none; /* On mobile, 3D menu and album are already in hero & hamburger */

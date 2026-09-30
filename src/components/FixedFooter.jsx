@@ -10,23 +10,23 @@ export default function FixedFooter() {
         <div className="marquee-track">
           {[...Array(2)].map((_, i) => (
             <div key={i} className="marquee-content">
-              <span>🌯 GAZİANTEP NOHUT SARMA</span>
+              <span>🌯 Antep Tava Dürüm</span>
               <span className="dot-sep">✦</span>
-              <span>🍗 ÖZEL SOSLU TAVUK SARMA</span>
+              <span>🍗 Tavuk Sote Dürüm</span>
               <span className="dot-sep">✦</span>
-              <span>🔥 MEŞE KÖZÜNDE TAVUK ŞİŞ</span>
+              <span>🔥 Tavuk Şiş</span>
               <span className="dot-sep">✦</span>
-              <span>🥩 SACDA CIZBIZ CİĞER KAVURMA SARMA</span>
+              <span>🌯 Sarma Tavuk Dürüm</span>
               <span className="dot-sep">✦</span>
-              <span>🥘 ANTEP USULÜ TAVA SARMA</span>
+              <span>🍲 Gaziantep Meşhur Nohut Dürüm</span>
               <span className="dot-sep">✦</span>
-              <span>🌯 TAVUK SOTE SARMA</span>
+              <span>🥩 Antep Usulü Ciğer Kavurma Dürüm</span>
               <span className="dot-sep">✦</span>
-              <span>🌶️ ANTEP USULÜ ÇİĞ KÖFTE SARMA</span>
+              <span>🌶️ Antep Usulü Çiğ Köfte Dürüm</span>
               <span className="dot-sep">✦</span>
-              <span>🍟 KARIŞIK KIZARTMA SARMA</span>
+              <span>🍟 Karışık Kızartma Dürüm</span>
               <span className="dot-sep">✦</span>
-              <span>🥤 BUZ GİBİ SOĞUK AYRAN & İÇECEKLER</span>
+              <span>🥤 Buz Gibi Soğuk Ayran & İçecekler</span>
               <span className="dot-sep">✦</span>
             </div>
           ))}
@@ -39,9 +39,9 @@ export default function FixedFooter() {
           <a
             href={RESTAURANT_INFO.googleMapsUrl}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="fixed-address-item strip-address-link"
-            title="Google Haritalar'da Aç (Karagöz, Karahoca Sok. No:21)"
+            title="Google Haritalar'da Aç (Karagöz, Karahoca Sokak No: 21, Gaziantep)"
           >
             <MapPin size={14} className="text-crimson shrink-0" />
             <span className="strip-address-text">{RESTAURANT_INFO.address}</span>
