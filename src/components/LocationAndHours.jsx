@@ -108,7 +108,7 @@ export default function LocationAndHours() {
                 </div>
                 <div>
                   <h3 className="info-card-title">Çalışma Saatlerimiz</h3>
-                  <span className="text-xs text-muted">Gece Dürümü Dahil</span>
+                  <span className="text-xs text-muted">Gece Sarması Dahil</span>
                 </div>
               </div>
               <div className="hours-list">

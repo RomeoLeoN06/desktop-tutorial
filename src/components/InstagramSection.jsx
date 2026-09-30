@@ -45,7 +45,7 @@ export default function InstagramSection() {
               </div>
 
               <p className="insta-bio">
-                👑 <strong>Sarmacı Faruk</strong> | Gaziantep Meşhur Dürüm Evi<br />
+                👑 <strong>Sarmacı Faruk</strong> | Gaziantep Meşhur Sarma Evi<br />
                 🌯 Nohut Sarma • Tavuk Sarma • Tavuk Şiş • Ciğer Kavurma Sarma • Antep Tava Sarma<br />
                 📍 Karagöz, Karahoca Sok. No:21, Gaziantep<br />
                 📞 Sipariş Hattı: <strong>0530 257 49 09</strong>

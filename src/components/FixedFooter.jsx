@@ -20,13 +20,13 @@ export default function FixedFooter() {
               <span className="dot-sep">✦</span>
               <span>🥘 ANTEP USULÜ TAVA SARMA</span>
               <span className="dot-sep">✦</span>
-              <span>🌯 TAVUK SOTE DÜRÜM</span>
+              <span>🌯 TAVUK SOTE SARMA</span>
               <span className="dot-sep">✦</span>
-              <span>🌶️ ANTEP USULÜ ÇİĞ KÖFTE DÜRÜM</span>
+              <span>🌶️ ANTEP USULÜ ÇİĞ KÖFTE SARMA</span>
               <span className="dot-sep">✦</span>
-              <span>🍟 KARIŞIK KIZARTMA DÜRÜM</span>
+              <span>🍟 KARIŞIK KIZARTMA SARMA</span>
               <span className="dot-sep">✦</span>
-              <span>🥤 BUZ GİBİ YAYIK AYRAN & İÇECEKLER</span>
+              <span>🥤 BUZ GİBİ SOĞUK AYRAN & İÇECEKLER</span>
               <span className="dot-sep">✦</span>
             </div>
           ))}

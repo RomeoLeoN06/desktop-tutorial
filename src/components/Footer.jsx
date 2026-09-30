@@ -60,14 +60,14 @@ export default function Footer({ onOpenMenuModal }) {
           <div className="footer-col">
             <h4 className="footer-col-title">Lezzetlerimiz (3D Menü)</h4>
             <ul className="footer-links-list">
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Antep Tava Dürüm</button></li>
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Tavuk Sote Dürüm</button></li>
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Közde Tavuk Şiş</button></li>
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Sarma Tavuk Dürüm</button></li>
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Meşhur Nohut Dürüm</button></li>
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Antep Usulü Ciğer Kavurma</button></li>
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Antep Usulü Çiğ Köfte Dürüm</button></li>
-              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Yoğurtlu Karışık Kızartma</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Antep Tava Sarma</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Tavuk Sote Sarma</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Tavuk Şiş Sarma</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Özel Soslu Tavuk Sarma</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Meşhur Nohut Sarma</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Antep Usulü Ciğer Kavurma Sarma</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Antep Usulü Çiğ Köfte Sarma</button></li>
+              <li><button className="footer-link-btn" onClick={onOpenMenuModal}>Karışık Kızartma Sarma</button></li>
             </ul>
           </div>
 
@@ -97,7 +97,7 @@ export default function Footer({ onOpenMenuModal }) {
         {/* Footer Bottom Bar */}
         <div className="footer-bottom-bar">
           <p className="copyright-text">
-            © 1971 - 2026 <strong>Sarmacı Faruk</strong> Gaziantep Dürüm Evi. Tüm Hakları Saklıdır.
+            © 1971 - 2026 <strong>Sarmacı Faruk</strong> Gaziantep Sarma Evi. Tüm Hakları Saklıdır.
           </p>
           <div className="d-flex align-center gap-4">
             <span className="text-xs text-muted">Gaziantep Gastronomi Şehri</span>

@@ -317,10 +317,10 @@ export default function ThreeDExperience({ onSelectDish }) {
             <span>İnteraktif 3 Boyutlu Lezzet Laboratuvarı</span>
           </div>
           <h2 className="section-title">
-            Faruk Usta’nın <span>3 Boyutlu Dürüm Deneyimi</span>
+            Faruk Usta’nın <span>3 Boyutlu Sarma Deneyimi</span>
           </h2>
           <p className="section-desc">
-            Dürümün her katmanını, taş fırın çıtırlığını ve Gaziantep baharatlarının sırrını
+            Sarmamızın her katmanını, taş fırın çıtırlığını ve Gaziantep baharatlarının sırrını
             360 derece döndürerek 3 boyutlu olarak inceleyin.
           </p>
         </div>

@@ -1,0 +1,15 @@
+# ========================================================
+# SARMACI FARUK - ROBOTS.TXT
+# ========================================================
+
+User-agent: *
+Allow: /
+
+# Disallow sensitive assets or configs if any
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.env$
+
+# Sitemap Reference
+Sitemap: https://sarmacifaruk.com/sitemap.xml

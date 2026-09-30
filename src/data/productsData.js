@@ -1,11 +1,11 @@
 export const PRODUCTS_LIST = [
   // 1. Antep Tava Dürüm
   {
-    id: 'antep-tava-sarma',
+    id: 'antep-tava-durum',
     name: 'Antep Tava Dürüm',
     category: 'yiyecekler',
     categoryName: 'Yiyecekler',
-    desc: 'Fırında sacda pişmiş tava eti, biber, domates ve baharatlarla tırnak lavaşta.',
+    desc: 'Fırında sacda pişmiş tava eti, biber, domates ve baharatlarla tırnak lavaşta enfes dürüm.',
     ingredients: 'Fırın tava eti, kapya biber, domates, baharatlar, tırnak lavaş.',
     image: './images/antep_tava_durum.jpg'
   },
@@ -15,7 +15,7 @@ export const PRODUCTS_LIST = [
     name: 'Tavuk Sote Dürüm',
     category: 'yiyecekler',
     categoryName: 'Yiyecekler',
-    desc: 'Biber ve domatesle sotelenmiş tavuk eti, taze yeşilliklerle sıcak lavaşta.',
+    desc: 'Biber ve domatesle sotelenmiş lokum tavuk eti, taze yeşilliklerle sıcak lavaşta dürüm.',
     ingredients: 'Sotelenmiş tavuk eti, biber, domates, taze lavaş.',
     image: './images/tavuk_sote_durum.jpg'
   },
@@ -25,74 +25,74 @@ export const PRODUCTS_LIST = [
     name: 'Tavuk Şiş',
     category: 'yiyecekler',
     categoryName: 'Yiyecekler',
-    desc: 'Közde pişirilmiş tavuk şiş, sumaklı piyaz ve köz biber ile tırnak lavaşta.',
+    desc: 'Közde pişirilmiş tavuk şiş, sumaklı piyaz ve köz biber ile tırnak lavaşta enfes lezzet.',
     ingredients: 'Közde tavuk şiş, sumaklı soğan piyazı, köz biber, tırnak lavaş.',
     image: './images/tavuk_sis.jpg'
   },
   // 4. Sarma Tavuk Dürüm
   {
-    id: 'tavuk-sarma',
+    id: 'sarma-tavuk-durum',
     name: 'Sarma Tavuk Dürüm',
     category: 'yiyecekler',
     categoryName: 'Yiyecekler',
-    desc: 'Tavuk but eti, sumaklı soğan piyazı ve taze yeşilliklerle tırnak lavaşta.',
+    desc: 'Marine tavuk but eti, sumaklı soğan piyazı ve taze yeşilliklerle tırnak lavaşta sarma tavuk dürüm.',
     ingredients: 'Tavuk but eti, sumaklı soğan piyazı, tırnak lavaş.',
     image: './images/tavuk_durum.jpg'
   },
-  // 5. Nohut Dürüm
+  // 5. Gaziantep Meşhur Nohut Dürüm
   {
-    id: 'nohut-sarma',
+    id: 'nohut-durum',
     name: 'Gaziantep Meşhur Nohut Dürüm',
     category: 'yiyecekler',
     categoryName: 'Yiyecekler',
-    desc: 'Sıcak Antep nohudu, sumak, kimyon ve taze soğan piyazıyla tırnak lavaşta.',
+    desc: 'Sıcak Antep nohudu, sumak, kimyon ve taze soğan piyazıyla tırnak lavaşta hakiki nohut dürüm.',
     ingredients: 'Antep nohudu, kimyon, sumak, taze soğan piyazı, tırnak lavaş.',
     image: './images/nohut_durum.jpg'
   },
-  // 6. Ciğer Kavurma Sarma
+  // 6. Antep Usulü Ciğer Kavurma Dürüm
   {
-    id: 'ciger-kavurma-sarma',
-    name: 'Antep Usulü Ciğer Kavurma',
+    id: 'ciger-kavurma-durum',
+    name: 'Antep Usulü Ciğer Kavurma Dürüm',
     category: 'yiyecekler',
     categoryName: 'Yiyecekler',
-    desc: 'Kavrulmuş taze kuzu ciğeri, sumaklı maydanoz piyazı ve baharatlarla tırnak lavaşta.',
+    desc: 'Kavrulmuş taze kuzu ciğeri, sumaklı maydanoz piyazı ve baharatlarla tırnak lavaşta ciğer kavurma dürüm.',
     ingredients: 'Taze kuzu ciğeri, sumaklı maydanoz piyazı, baharatlar, tırnak lavaş.',
     image: './images/ciger_durum.jpg'
   },
-  // 7. Çiğ Köfte Dürüm
+  // 7. Antep Usulü Çiğ Köfte Dürüm
   {
-    id: 'cig-kofte',
+    id: 'cig-kofte-durum',
     name: 'Antep Usulü Çiğ Köfte Dürüm',
     category: 'yiyecekler',
     categoryName: 'Yiyecekler',
-    desc: 'Antep usulü çiğ köfte, marul, taze yeşillikler ve nar ekşisiyle lavaşta.',
+    desc: 'Antep usulü çiğ köfte, marul, taze yeşillikler ve nar ekşisiyle lavaşta enfes çiğ köfte dürüm.',
     ingredients: 'Antep usulü çiğ köfte, marul, nar ekşisi, lavaş.',
     image: './images/cig_kofte_durum.jpg'
   },
   // 8. Karışık Kızartma Dürüm
   {
-    id: 'karisik-kizartma',
-    name: 'Yoğurtlu Karışık Kızartma Dürüm',
+    id: 'karisik-kizartma-durum',
+    name: 'Karışık Kızartma Dürüm',
     category: 'yiyecekler',
     categoryName: 'Yiyecekler',
-    desc: 'Kızarmış patlıcan, kabak ve tatlı biber, sarımsaklı süzme yoğurt ile sıcak lavaşta.',
-    ingredients: 'Kızarmış patlıcan, kabak, yeşil biber, sarımsaklı yoğurt, lavaş.',
+    desc: 'Kızarmış patlıcan, kabak, patates ve tatlı biber, taze lavaş ve baharatlarla sıcak karışık kızartma dürüm.',
+    ingredients: 'Kızarmış patlıcan, kabak, yeşil biber, patates, baharatlar, lavaş.',
     image: './images/karisik_kizartma.jpg'
   },
 
   // İçecekler (6 Çeşit)
   {
     id: 'buyuk-ayran',
-    name: 'Büyük Yayık Ayran (300 ml)',
+    name: 'Büyük Ayran (330 ml)',
     category: 'icecekler',
     categoryName: 'İçecekler',
-    desc: 'Bol köpüklü, soğuk ve ferahlatıcı Antep yayık ayranı.',
-    ingredients: 'Soğuk yayık ayranı.',
+    desc: 'Soğuk ve ferahlatıcı büyük boy taze ayran.',
+    ingredients: 'Büyük boy ayran (330 ml).',
     image: './images/products/ayran_buyuk.jpg'
   },
   {
     id: 'kucuk-ayran',
-    name: 'Küçük Ayran (175 ml)',
+    name: 'Küçük Ayran (200 ml)',
     category: 'icecekler',
     categoryName: 'İçecekler',
     desc: 'Soğuk ve ferahlatıcı klasik kapalı ayran.',

@@ -110,7 +110,7 @@ export default function ThreeDishViewerModal({ dish, onClose }) {
 
             {/* Portion Selector */}
             <div className="customizer-group">
-              <label className="group-label">Porsiyon & Dürüm Şekli</label>
+              <label className="group-label">Porsiyon & Sarma Şekli</label>
               <div className="portion-options-grid">
                 <button
                   className={`portion-btn ${portionType === 'single' ? 'active' : ''}`}

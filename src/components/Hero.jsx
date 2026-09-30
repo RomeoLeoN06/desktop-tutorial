@@ -43,7 +43,7 @@ export default function Hero({ onOpenProductsModal }) {
             </div>
 
             <h1 className="hero-title">
-              <span className="hero-title-main">Antep Usulü Sarma & Dürüm</span>
+              <span className="hero-title-main">Antep Usulü Özel Sarma</span>
               <span className="hero-title-sub">Faruk Usta Lezzeti</span>
             </h1>
 

@@ -90,7 +90,7 @@ export default function Navbar({ onOpenGallery, onReplayIntro }) {
               <span className="hours-dot-sep">✦</span>
               <span>⏰ SABAH 06:00'DAN GECE 03:00'E KADAR KESİNTİSİZ AÇIĞIZ</span>
               <span className="hours-dot-sep">✦</span>
-              <span>🌙 GECE 03:00'E KADAR SICAK DÜRÜM & SARMA SERVİSİ</span>
+              <span>🌙 GECE 03:00'E KADAR SICAK ANTEP SARMASI SERVİSİ</span>
               <span className="hours-dot-sep">✦</span>
             </div>
           ))}

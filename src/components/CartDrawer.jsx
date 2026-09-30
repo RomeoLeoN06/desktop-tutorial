@@ -14,7 +14,7 @@ export default function CartDrawer({ isOpen, onClose, cart, onUpdateQuantity, on
   const handleWhatsAppOrder = () => {
     if (cart.length === 0) return;
 
-    let message = `🌯 *SARMACI FARUK - YENİ DÜRÜM SİPARİŞİ*\n`;
+    let message = `🌯 *SARMACI FARUK - YENİ SARMA SİPARİŞİ*\n`;
     message += `━━━━━━━━━━━━━━━━━━━━━\n`;
     
     cart.forEach((item, idx) => {
@@ -68,7 +68,7 @@ export default function CartDrawer({ isOpen, onClose, cart, onUpdateQuantity, on
             <div className="empty-cart-state">
               <div className="empty-cart-icon">🌯</div>
               <h4>Sepetiniz Henüz Boş</h4>
-              <p>Faruk Usta’nın enfes Gaziantep dürümlerinden dilediğinizi ekleyin.</p>
+              <p>Faruk Usta’nın enfes Gaziantep sarmalarından dilediğinizi ekleyin.</p>
               <button className="btn btn-primary mt-4" onClick={onClose}>
                 Lezzetleri Keşfet
               </button>

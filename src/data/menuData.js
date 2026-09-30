@@ -15,7 +15,7 @@ export const MENU_ITEMS = [
     image: './images/antep_tava_durum.jpg',
     realImage: './images/antep_tava_durum.jpg',
     description: 'Gaziantep kasap geleneği zırhtan çekilmiş et, sarımsak, kapya biber ve domatesle bakır sac tavada kendi lezzetiyle pişer; dumanı üstünde taş fırın tırnak lavaşa sarılır.',
-    highlights: ['Bakır Sac Tavada Pişirilir', 'Zırh Kıyma & Sarımsak Dengesi', 'Tırnak Lavaşta Ziyafet'],
+    highlights: ['Bakır Sac Tavada Pişirilir', 'Zırh Kıyma & Sarımsak Dengesi', 'Tırnak Lavaşta Dürüm Ziyafeti'],
     ingredients: ['Zırh Kıyma (Dana/Kuzu)', 'Sarımsak', 'Kapya Biber', 'Köy Domatesi', 'Tereyağı', 'Antep Baharatları', 'Tırnak Lavaş'],
     isPopular: true
   },
@@ -42,7 +42,7 @@ export const MENU_ITEMS = [
   // 3. Tavuk Şiş (3. Resim)
   {
     id: 'tavuk-sis',
-    name: 'Meşe Közünde Tavuk Şiş',
+    name: 'Tavuk Şiş',
     category: 'yiyecekler',
     tag: 'Ocakbaşı Köz',
     price: 210,
@@ -54,14 +54,14 @@ export const MENU_ITEMS = [
     calories: '580 kcal',
     image: './images/tavuk_sis.jpg',
     realImage: './images/tavuk_sis.jpg',
-    description: 'Meşe kömürü mangalında nar gibi kızaran sulu tavuk but şişler, közlenmiş Antep biberi ve köz domates eşliğinde taze lavaş veya porsiyon olarak sunulur.',
+    description: 'Meşe kömürü mangalında nar gibi kızaran sulu tavuk but şişler, közlenmiş Antep biberi ve köz domates eşliğinde taze lavaşa sarılıp sunulur.',
     highlights: ['Mangalda Köz Ateşi', 'Sulu & Yumuşak Lokum Et', 'Köz Domates & Biber Garnitür'],
     ingredients: ['Tavuk But Şiş', 'Köz Yeşil Antep Biberi', 'Köz Köy Domatesi', 'Sumaklı Maydanoz', 'Tırnak Lavaş'],
     isPopular: true
   },
   // 4. Sarma Tavuk Dürüm (4. Resim)
   {
-    id: 'tavuk-sarma',
+    id: 'sarma-tavuk-durum',
     name: 'Sarma Tavuk Dürüm',
     category: 'yiyecekler',
     tag: 'Şefin İmzası',
@@ -99,10 +99,10 @@ export const MENU_ITEMS = [
     ingredients: ['Kemik Sulu Nohut', 'Gaziantep Kimyonu', 'Hakiki Sumak', 'İpek Pul Biber', 'Maydanoz', 'Kırmızı Soğan', 'Domates', 'Tırnak Lavaş'],
     isPopular: true
   },
-  // 6. Antep Usulü Ciğer Kavurma
+  // 6. Antep Usulü Ciğer Kavurma Dürüm
   {
     id: 'ciger-kavurma-sarma',
-    name: 'Antep Usulü Ciğer Kavurma',
+    name: 'Antep Usulü Ciğer Kavurma Dürüm',
     category: 'yiyecekler',
     tag: 'Hakiki Kuzu Ciğeri',
     price: 240,
@@ -114,7 +114,7 @@ export const MENU_ITEMS = [
     calories: '510 kcal',
     image: './images/ciger_durum.jpg',
     realImage: './images/ciger_durum.jpg',
-    description: 'Günlük taze kuzu ciğeri; yüksek ateşte kuyruk yağıyla cızbız kavrulup acı toz biber ve kimyonla harmanlanır. İncecik tırnak lavaş içinde bol sumaklı nane ve soğan piyazıyla sunulur.',
+    description: 'Günlük taze kuzu ciğeri; yüksek ateşte kuyruk yağıyla cızbız kavrulup acı toz biber ve kimyonla harmanlanır. İncecik tırnak lavaş içinde bol sumaklı nane ve soğan piyazıyla sarılıp sunulur.',
     highlights: ['Günlük Taze Kuzu Ciğeri', 'Kuyruk Yağında Cızbız', 'Bol Sumak & Taze Nane'],
     ingredients: ['Kuzu Ciğeri', 'Kuyruk Yağı', 'Antep Acı Biberi', 'Kimyon', 'Sumak', 'Mor Soğan', 'Taze Nane', 'Tırnak Lavaş'],
     isPopular: true
@@ -139,10 +139,10 @@ export const MENU_ITEMS = [
     ingredients: ['Esmer Bulgur', 'Antep İsotu', 'Ceviz İçi', 'Kaya Tuzu', 'Taze Nane', 'Göbek Marul', 'Limon', 'Nar Ekşisi', 'İnce Lavaş'],
     isPopular: true
   },
-  // 8. Yoğurtlu Karışık Kızartma Dürüm
+  // 8. Karışık Kızartma Dürüm
   {
     id: 'karisik-kizartma-durum',
-    name: 'Yoğurtlu Karışık Kızartma Dürüm',
+    name: 'Karışık Kızartma Dürüm',
     category: 'yiyecekler',
     tag: 'Çıtır Sebze Şöleni',
     price: 165,
@@ -154,18 +154,18 @@ export const MENU_ITEMS = [
     calories: '490 kcal',
     image: './images/karisik_kizartma.jpg',
     realImage: './images/karisik_kizartma.jpg',
-    description: 'Tezgâhtan taze kızarmış patlıcan, kabak, tatlı biber ve patates kızartması; sarımsaklı süzme yoğurt ve kızgın tereyağlı pul biber sosuyla tırnak lavaşta enfes bir buluşma.',
-    highlights: ['Taze Çıtır Sebzeler', 'Sarımsaklı Süzme Yoğurt', 'Kızgın Tereyağı Sosu'],
-    ingredients: ['Patlıcan', 'Kabak', 'Köy Biberi', 'Patates Kızartması', 'Sarımsaklı Süzme Yoğurt', 'Tereyağlı Sos', 'Tırnak Lavaş'],
+    description: 'Tezgâhtan taze kızarmış patlıcan, kabak, tatlı biber ve patates kızartması; taze yeşillikler ve özel baharatlarla tırnak lavaşta enfes sarma lezzeti.',
+    highlights: ['Taze Çıtır Sebzeler', 'Özel Baharat Harmanı', 'Taş Fırın Tırnak Lavaş'],
+    ingredients: ['Patlıcan', 'Kabak', 'Köy Biberi', 'Patates Kızartması', 'Baharatlar', 'Tırnak Lavaş'],
     isPopular: true
   },
 
-  // 9. Büyük Yayık Ayran (300 ml)
+  // 9. Büyük Ayran (330 ml)
   {
     id: 'buyuk-ayran',
-    name: 'Büyük Yayık Ayran (300 ml)',
+    name: 'Büyük Ayran (330 ml)',
     category: 'icecekler',
-    tag: 'Bol Köpüklü',
+    tag: 'Soğuk İçecek',
     price: 35,
     rating: 4.98,
     reviews: 1850,
@@ -174,15 +174,15 @@ export const MENU_ITEMS = [
     calories: '120 kcal',
     image: './images/products/ayran_buyuk.jpg',
     realImage: './images/products/ayran_buyuk.jpg',
-    description: 'Bakır maşrapada soğuk, bol köpüklü ve ferahlatıcı hakiki Antep yayık ayranı.',
-    highlights: ['Geleneksel Yayık', 'Bol Köpüklü', 'Buz Gibi Ferahlık'],
-    ingredients: ['Köy Yoğurdu', 'Su', 'Kaya Tuzu'],
+    description: 'Soğuk ve ferahlatıcı büyük boy taze ayran (330 ml).',
+    highlights: ['Büyük Boy 330 ml', 'Buz Gibi Soğuk', 'Taze Ayran'],
+    ingredients: ['Yoğurt', 'Su', 'Tuz'],
     isPopular: true
   },
-  // 10. Küçük Ayran (175 ml)
+  // 10. Küçük Ayran (200 ml)
   {
     id: 'kucuk-ayran',
-    name: 'Küçük Ayran (175 ml)',
+    name: 'Küçük Ayran (200 ml)',
     category: 'icecekler',
     tag: 'Soğuk İçecek',
     price: 20,
@@ -283,7 +283,7 @@ export const CATEGORIES = [
 
 export const RESTAURANT_INFO = {
   name: 'Sarmacı Faruk',
-  subtitle: 'Gaziantep Meşhur Dürüm Evi',
+  subtitle: 'Gaziantep Meşhur Sarma Evi',
   established: 1971,
   tagline: 'Köz Ateşinden Taze Lavaşın Kalbine Gaziantep Efsanesi',
   phone: '05302574909',
@@ -369,7 +369,7 @@ export const INSTAGRAM_POSTS = [
     image: './images/cig_kofte_durum.jpg',
     likes: '4,930',
     comments: '165',
-    caption: 'Gaziantep usulü bol isotlu ve cevizli el yoğurması Çiğ Köfte Dürüm! Çıtır marul ve hakiki nar ekşisiyle günün her saati hazır. 🌯🍋 #ÇiğKöfte #SarmacıFaruk'
+    caption: 'Gaziantep usulü bol isotlu ve cevizli el yoğurması Çiğ Köfte Sarma! Çıtır marul ve hakiki nar ekşisiyle günün her saati hazır. 🌯🍋 #ÇiğKöfteSarma #SarmacıFaruk'
   }
 ];
 
@@ -377,7 +377,7 @@ export const SLIDESHOW_IMAGES = [
   {
     url: './images/hero.jpg',
     title: 'Sarmacı Faruk Gaziantep Ziyafeti',
-    subtitle: 'Hakiki Antep Usulü Özel Sarma & Dürüm Çeşitleri'
+    subtitle: 'Hakiki Antep Usulü Özel Sarma Çeşitleri'
   },
   {
     url: './images/tavuk_durum.jpg',
@@ -406,7 +406,7 @@ export const SLIDESHOW_IMAGES = [
   },
   {
     url: './images/cig_kofte_durum.jpg',
-    title: 'Cevizli & İsotlu Çiğ Köfte Dürüm',
+    title: 'Cevizli & İsotlu Çiğ Köfte Sarma',
     subtitle: 'Taş Dibek Antep İsotu ve Taze Yeşillikler'
   }
 ];

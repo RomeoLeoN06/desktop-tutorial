@@ -11,8 +11,19 @@ node_modules
 dist
 dist-ssr
 *.local
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
 
-# Editor directories and files
+# Backups & temp files
+*.bak
+*.tmp
+*.temp
+*~
 .vscode/*
 !.vscode/extensions.json
 .idea

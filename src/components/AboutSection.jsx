@@ -25,7 +25,7 @@ export default function AboutSection() {
             {/* Quote Card */}
             <div className="about-quote-box">
               <p className="quote-text">
-                "Bizim dürümümüzde hile hurda olmaz; lavaş fırından yeni çıkacak, nohut et suyunu 
+                "Bizim sarmamızda hile hurda olmaz; lavaş fırından yeni çıkacak, nohut et suyunu 
                 iliklerine kadar çekecek, kimyon burnuna buram buram kokacak."
               </p>
               <div className="quote-author">
@@ -48,7 +48,7 @@ export default function AboutSection() {
 
             <p className="about-text">
               1971 yılında Gaziantep'in kadim sokaklarında küçük bir köz ocağı ve taş fırınla başlayan yolculuğumuz, 
-              bugün şehrin en sevilen dürüm ve tava durağı olarak devam ediyor. Gaziantep’in UNESCO tescilli 
+              bugün şehrin en sevilen sarma ve tava durağı olarak devam ediyor. Gaziantep’in UNESCO tescilli 
               mutfak kültürüne olan sadakatimizle, ilk günkü heyecanla sabahın ilk ışıklarında ocağımızı yakıyoruz.
             </p>
 
@@ -70,7 +70,7 @@ export default function AboutSection() {
                 </div>
                 <div>
                   <h4 className="pillar-title">Dakikalık Taze Lavaş</h4>
-                  <p className="pillar-desc">Beklemiş ekmek asla kullanılmaz, her dürüm anında açılan sıcak lavaşla sarılır.</p>
+                  <p className="pillar-desc">Beklemiş ekmek asla kullanılmaz, her sarma anında açılan sıcak lavaşla sarılır.</p>
                 </div>
               </div>
 
